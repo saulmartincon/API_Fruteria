@@ -1,0 +1,11 @@
+Primero se arranca la API y después la aplicación.
+
+1) API (FastAPI)
+   cd fruteria_api
+   pip install -r requirements.txt
+   python -m uvicorn main:app --reload
+
+   Para comprobar que funciona: http://127.0.0.1:8000/docs
+
+2) Aplicación (WinForms)
+   Abrir FruteriaWinForms en Visual Studio 2022 y pulsar F5.
